@@ -1,7 +1,7 @@
 import pytest
 
+from blog.commands import AlreadyExists, CreateArticleCommand
 from blog.models import Article
-from blog.commands import CreateArticleCommand, AlreadyExists
 
 
 def test_create_article():

@@ -26,3 +26,13 @@ $ python -m pytest tests -m 'e2e'
 ```shell
 $ python -m pytest tests -m 'not e2e'
 ```
+
+### Run lint
+```shell
+$ python -m flake8 /blog
+```
+
+### Run code formatter
+```shell
+$ python -m isort .
+```
