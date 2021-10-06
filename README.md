@@ -5,3 +5,8 @@ TDD example with Python (Flask and Pytest)
 ```shell
 $ python -m pytest tests
 ```
+
+### Run coverage
+```shell
+$ python -m pytest tests --cov=blog
+```
